@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+#demo{
+    font-size: 10px;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(185, 41%, 84%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main__container{
+    width: 48vw;
+    height: 50vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 22vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.output{
+    width: 22vw;
+    height: 100%;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.tip_buttons{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    
+}
+button, #custom{
+    width: 6vw;
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    overflow: hidden;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+button:hover{
+    background-color: hsl(133, 80%, 60%);
+}
+#custom{
+    background-color: hsl(189, 41%, 97%);
+    color: black;
+    text-align: end;
+}
+h4{
+    padding-bottom: 8px;
+}
+
+#bill{
+    background-image: url('images/icon-dollar.svg');
+    background-position:left;
+    background-repeat: no-repeat;
+    text-align: end;
+    padding: 10px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 10px;
+    border: none;
+    width: 20vw;
+}
+#people{
+    background-image: url('images/icon-person.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: end;
+    padding: 10px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 10px;
+    border: none;
+    width: 20vw;
+}
+.tip_amount, .total{
+    display: flex;
+    justify-content: space-between;
+}
+.reset{
+    align-items: center;
+
+}
+.button_reset{
+    width: 19vw;
+    background-color: hsl(123, 100%, 10%);
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    overflow: hidden;
+    color: hsl(0, 0%, 28%);
+    border-radius: 5px;
+}
+.button_reset:hover{
+    background-color: hsl(134, 21%, 28%);
+    color: hsl(0, 2%, 20%);
+}
+.amt_result, .tip_result{
+    font-size: 32px;
+    color: hsl(120, 67%, 34%);
+}.total{
+    padding-top: 5px;
+}
+h3{
+    font-size: 17px;
+    color: white;
+}
+p{
+    font-size: 13px;
+    color: rgb(167, 172, 172);
+}
+
+@media screen and (max-width: 884px) {
+    main{
+        height: 100vh;
+        width: 100%;
+        background-color: hsl(185, 41%, 84%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+    .main__container{
+        width: 63vw;
+        height: 200%;
+        background-color: beige;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .input{
+        width: 55vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .output{
+        width: 55vw;
+        height: 100%;
+        background-color: hsl(183, 100%, 15%);
+        border-radius: 15px;
+    }
+    button, #custom{
+        width: 10vw;
+    }
+    #custom{
+        background-color: hsl(189, 41%, 97%);
+        color: black;
+        text-align: end;
+        font-size: 9px;
+        padding: 10px;
+    }
+    #bill,#people{
+        width: 52vw;
+    }
+    .button_reset{
+        width: 45vw;
+    }
+}
+
+
+
