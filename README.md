@@ -30,7 +30,7 @@ Creating using only HTML,CSS & JS.
 
 ### Links
 
-- Live Site URL: [Tip calculator app live](https://your-live-site-url.com)
+- Live Site URL: [Tip calculator app live](https://laughing-kare-80b80d.netlify.app/)
 
 ## My process
 
