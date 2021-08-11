@@ -155,7 +155,7 @@ p{
     border-radius: 3px;  
     top: -5px;  
     color: rgb(255, 0, 0);  
-    content: attr(alt); 
+    content: attr(data); 
     top: -25px; 
     left: 170px;  
     padding: 3px 3px;  
